@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<user xmlns="http://www.z.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.z.com user.xsd">
+	<name>大神</name>
+	<age>30</age>
+<!-- 	<sex>男</sex> -->
+	<company code="z001">
+		<name>大神公司</name>
+		<address>大神路</address>
+	</company>
+</user>

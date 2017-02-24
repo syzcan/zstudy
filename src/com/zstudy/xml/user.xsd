@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.z.com" xmlns="http://www.z.com"
+	elementFormDefault="qualified">
+	<xs:element name="user">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="name" type="xs:string" />
+				<xs:element name="age" type="xs:string" />
+				<xs:element name="sex" type="xs:string" minOccurs="0" />
+				<xs:element name="company" type="company" />
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="company">
+		<xs:all>
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="address" type="xs:string" />
+		</xs:all>
+		<xs:attribute name="code" type="xs:string" />
+	</xs:complexType>
+</xs:schema>
